@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Swift</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="page-name"><a href="index.html" style="text-decoration: none; color: black;"> Shop Swift </a></h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="clothing.html">Clothing</a></p>
+            <p class="navbar-link"><a href="">Cart</a></p>
+            <p class="navbar-link"><a href="">Contact Us</a></p>
+        </div>
+        <div class="navbar-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="side-navbar">
+        <p style="text-align: right;font-size: 30px;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="clothing.html">Clothing</a></p>
+            <p class="navbar-link"><a href="">Cart</a></p>
+            <p class="side-navbar-link"><a href="">Contact Us</a></p>
+        </div>
+    </div>
+
+    <div class="product">
+        <form class="search">
+            <input type="text" id="search-box" placeholder="Search">
+            <i class="fa-brands fa-searchengin"></i>
+        </form>
+
+        <div class="products" id="products-item">
+            <div class="items-box">
+                <img src="img/allen solly.jpg">
+                <p>Allen Solly</p>
+                <p id="amt">Rs. 1100</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="items-box">
+                <img src="img/peter.jpg">
+                <p>Peter England</p>
+                <p id="amt">Rs. 1800</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="items-box">
+                <img src="img/park.jpg">
+                <p>Park Avenue</p>
+                <p id="amt">Rs. 1500</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="items-box">
+                <img src="img/us.jpg">
+                <p>U.S. Polo Assn</p>
+                <p id="amt">Rs. 1700</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="items-box">
+                <img src="img/van.jpg">
+                <p>Van Heusen</p>
+                <p id="amt">Rs. 1200</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="items-box">
+                <img src="img/ray.jpg">
+                <p>Raymond</p>
+                <p id="amt">Rs. 2200</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="items-box">
+                <img src="img/louis.jpg">
+                <p>Louis Philippe</p>
+                <p id="amt">Rs. 1400</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="items-box">
+                <img src="img/levi's.jpg">
+                <p>Levi's</p>
+                <p id="amt">Rs. 1000</p>
+                <button>Add to Cart</button>
+            </div>
+            
+        </div>
+    </div>
+
+   
+
+    <div class="footer">
+        <h1>Shop Swift</h1>
+        <p>Modern Day solution</p>
+        <br>
+        <h4>Follow us on</h4>
+        <div class="footer-icon">
+            <i class="fa-brands fa-instagram" style="color: black; width: 1.5%; size: 10%;"></i>
+            <i class="fa-brands fa-x-twitter" style="color: black; width: 1.5%;"></i>
+            <i class="fa-brands fa-square-facebook" style="color: black; width: 1.5%;"></i>
+            <i class="fa-brands fa-linkedin" style="color: black; width: 1.5%;"></i>
+        </div>
+        <h5>&copy; 2024 copyrights reserved - ShopSwift</h5>
+    </div>
+
+    <script src="clothing.js"></script>
+</body>
+
+</html>
